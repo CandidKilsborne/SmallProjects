@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.loading__blur {
+  background: url('./ivana-cajina-unsplash.jpg') no-repeat center center/cover;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  filter: blur(0px);
+  z-index: -1;
+}
+
+.loading__text {
+  font-size: 3rem;
+  color: #fff;
+}
